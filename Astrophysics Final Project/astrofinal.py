@@ -17,9 +17,9 @@ planet_size = 50
 object_size = 5
 velocity_scale = 50
 
-bg = pygame.transform.scale(pygame.image.load("Astrophysics Final Project/bkg.jpg"), (width, height))
-planet = pygame.transform.scale(pygame.image.load("Astrophysics Final Project/earth.png"), (planet_size * 2, planet_size * 2))
-moon = pygame.transform.scale(pygame.image.load("Astrophysics Final Project/moon.jpeg"), (planet_size, planet_size))
+bg = pygame.transform.scale(pygame.image.load("bkg.jpg"), (width, height))
+planet = pygame.transform.scale(pygame.image.load("earth.png"), (planet_size * 2, planet_size * 2))
+moon = pygame.transform.scale(pygame.image.load("moon.jpeg"), (planet_size, planet_size))
 
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
